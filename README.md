@@ -6,13 +6,17 @@ The web site should at least contain one landing page (start page) and three (3)
 
 The minimum subpages should be:
 
-About- This page should contain some text about your self (if you want - a fictional person). This page should contain at least:
-One ordered list (maybe list favorite movies, songs or things like that)
-One unordered list
-One image (relative URL to the image)
-One playable video element (find one on the net and use an external URL)
-Blog/news - This page should contain at least two blog posts build by using the "new" HTML5 tags
-Contact - This page should contain a correct HTML form supporting HTTP POST method. For more information se image 1.2 below. There are no requirement that the form works since we haven't got a backend. We want you just to make it in HTML.
+### About
+This page should contain some text about your self (if you want - a fictional person). This page should contain at least:
+* One ordered list (maybe list favorite movies, songs or things like that)
+* One unordered list
+* One image (relative URL to the image)
+* One playable video element (find one on the net and use an external URL)
+### Blog/news 
+This page should contain at least two blog posts build by using the "new" HTML5 tags
+
+###Contact
+This page should contain a correct HTML form supporting HTTP POST method. For more information se image 1.2 below. There are no requirement that the form works since we haven't got a backend. We want you just to make it in HTML.
 
 All sub pages should be available through a menu that should be present in every page. For more information see image 1.1 below.
 
