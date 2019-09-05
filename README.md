@@ -1,6 +1,5 @@
 # cb223fj-examination-1
 
-
 ## Part 1
 The web site should at least contain one landing page (start page) and three (3) sub pages. You should be able to click around the site trough a menu that is always present on every page. See image 1.1 below.
 
