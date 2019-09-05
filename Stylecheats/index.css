@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    background: url("/pictures/IMG_0672.JPG") center;
+}
+
+header{
+    height: 500px;
+    max-width: 100%;
+    border-radius: 8px;
+    opacity: 0.5;
+}
+.headerBackround{
+    text-align: center;
+    height: 1000px;
+    max-width: 100%;
+    alt: "Me myself and I";
+}
+
+.headerLetters{
+    color: white;
+    opacity: 1.0;
+    text-align: center;
+}
