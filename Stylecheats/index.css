@@ -4,10 +4,8 @@ body{
 }
 
 header{
-    height: 500px;
+    height: 100px;
     max-width: 100%;
-    border-radius: 8px;
-    opacity: 0.5;
 }
 .headerBackround{
     text-align: center;
@@ -50,13 +48,32 @@ nav{
     width: 120px;
     height: 50%;
     position: fixed;
+
     overflow: auto;
     border-radius: 8px;
+
     outline-color: black;
     outline-style: solid;
 }
 
-nav a{
-    display: block;
-    width: 6px;
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
+
+nav li{
+    height: 40px;
+}
+
+nav a{
+    text-decoration: none;
+    display: block;
+    width: auto;
+    height: 40px;
+    border-radius: 8px;
+}
+nav a:hover{
+    background-color: grey;
+}
+
