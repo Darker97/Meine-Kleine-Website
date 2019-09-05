@@ -1,6 +1,6 @@
 body{
     background-color: black;
-    background: url("/pictures/pic.jpg") center fixed;
+    background: url("../pictures/pic.jpg") center fixed;
 }
 
 header{
