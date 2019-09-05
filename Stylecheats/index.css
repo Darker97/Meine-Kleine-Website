@@ -21,3 +21,14 @@ header{
     opacity: 1.0;
     text-align: center;
 }
+
+.contentPanel{
+    background-color: antiquewhite;
+    text-align: center;
+
+}
+.contentContainer{
+    background-color: azure;
+    height: auto;
+    
+}
