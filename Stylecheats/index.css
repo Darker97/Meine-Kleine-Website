@@ -22,8 +22,13 @@ header{
     text-align: center;
 }
 
-.content{
+.contentPanel{
     background-color: antiquewhite;
     text-align: center;
+
+}
+.contentContainer{
+    background-color: azure;
+    height: auto;
     
 }
