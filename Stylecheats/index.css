@@ -77,3 +77,15 @@ nav a:hover{
     background-color: grey;
 }
 
+footer{
+    text-align: center;
+    background-color: rgb(85, 85, 85);
+    height: 80px;
+    font-style: sans;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font: comic;
+}
+footer h2:hover{
+    font-size: 170%
+}
