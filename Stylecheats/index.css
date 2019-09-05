@@ -1,13 +1,11 @@
 body{
     background-color: black;
-    background: url("/pictures/IMG_0672.JPG") center;
+    background: url("/pictures/IMG_0672.JPG") center fixed;
 }
 
 header{
-    height: 500px;
+    height: 100px;
     max-width: 100%;
-    border-radius: 8px;
-    opacity: 0.5;
 }
 .headerBackround{
     text-align: center;
@@ -18,17 +16,64 @@ header{
 
 .headerLetters{
     color: white;
-    opacity: 1.0;
     text-align: center;
+    text-decoration: black;
+    text-decoration: underline;
 }
 
 .contentPanel{
-    background-color: antiquewhite;
+    background-color: rgb(218, 217, 216);
     text-align: center;
-
+    border-radius: 8px;
+    opacity: 0.5;
+    align-content: center;
+    width: 80%;
+    margin-left: auto ;
+    margin-right: auto ;
 }
 .contentContainer{
     background-color: azure;
+    opacity: unset;
+    border-radius: 8px;
     height: auto;
-    
+    width: 1000px;
+    align-self: center;
+    align-content: center;
+    margin-left: auto ;
+    margin-right: auto ;
 }
+
+nav{
+    background-color: lightgrey;
+    width: 120px;
+    height: 50%;
+    position: fixed;
+
+    overflow: auto;
+    border-radius: 8px;
+
+    outline-color: black;
+    outline-style: solid;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    height: 40px;
+}
+
+nav a{
+    text-decoration: none;
+    display: block;
+    width: auto;
+    height: 40px;
+    border-radius: 8px;
+}
+nav a:hover{
+    background-color: grey;
+}
+
