@@ -92,3 +92,53 @@ footer{
 footer h2:hover{
     font-size: 170%
 }
+
+/* ------------------------------------- */
+
+.Profilpicture{
+    width: auto;
+    height: 210px;
+    background: #aaa;
+    border-radius: 5px;
+}
+
+.contentContainer table{
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.contentContainer ul{
+    text-align: left;
+}
+.contentContainer ol{
+    text-align: left;
+}
+
+.projekts table, th, td{
+    height: auto;
+}
+
+.projekts table{
+    width: max-content;
+    align-content: center;
+}
+
+.projekts th{
+    background-color: grey;
+    border-right: 1px solid black;
+}
+.projekts td{
+    font-size: 18px;
+}
+
+.projekts{
+    background-color: azure;
+    opacity: unset;
+    border-radius: 8px;
+    height: auto;
+    width: 1000px;
+    align-self: center;
+    align-content: center;
+    margin-left: auto ;
+    margin-right: auto ;
+}
