@@ -1,5 +1,6 @@
 # cb223fj-examination-1
 
+~~
 ## Part 1
 
 The web site should at least contain one landing page (start page) and three (3) sub pages. You should be able to click around the site trough a menu that is always present on every page. See image 1.1 below.
@@ -28,6 +29,8 @@ All sub pages should be available through a menu that should be present in every
 Think about
 Make sure you structure or files and folders in a good way. Maybe one folder for images, one for pages, one for stylesheets and so on...
 Think of the semantic meaning of the page elements and their order
+
+~~
 
 ## Part 2
 
