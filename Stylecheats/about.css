@@ -105,6 +105,7 @@ footer h2:hover{
 .contentContainer table{
     border-collapse: collapse;
     text-align: center;
+    margin: auto;
 }
 
 .contentContainer ul{
@@ -116,6 +117,7 @@ footer h2:hover{
 
 .projekts table, th, td{
     height: auto;
+    margin: auto;
 }
 
 .projekts table{
