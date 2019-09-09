@@ -25,3 +25,44 @@ footer{
 footer h2:hover{
     font-size: 170%
 }
+
+nav{
+
+}
+
+nav a{
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: blue;
+    border-radius: 8px;
+}
+
+nav a:hover{
+    background-color: grey;
+}
+
+.linksToSee{
+    color: white;
+}
+
+.linksToSee br{
+    height: 1px;
+}
+.linksToSee a{
+    color: white;
+    background-color: green;
+    list-style-type: none;
+    border-radius: 8px;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+
+    max-width: 100px;
+    margin: auto;
+}
+
+.linksToSee a:hover{
+    background-color: grey;
+}
