@@ -48,6 +48,6 @@ function counter () {
   console.log(count)
 
   var footerElement = document.getElementsByClassName('counter')
-  footerElement[0].textContent = count
+  footerElement[0].textContent = 'This is your ' + count + ' visit'
   document.cookie = 'save=' + count
 }
