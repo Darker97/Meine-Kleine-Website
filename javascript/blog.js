@@ -2,7 +2,7 @@
 function newElement(JsonText) {
   console.log('Jay, works')
 
-  var Element = JSON.parse($.load('./JSON/blog.json'))
+  var Element = Save
 
   console.log(Element.BlogEntries[0].H1)
 
