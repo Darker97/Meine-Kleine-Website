@@ -1,6 +1,7 @@
 body{
     background-color: black;
     background: url("../pictures/pic.jpeg") center fixed;
+    font-family: 'Amatic SC', cursive;
 }
 
 header{
@@ -29,6 +30,7 @@ header{
     width: 80%;
     margin-left: auto ;
     margin-right: auto ;
+    font-family: 'Annie Use Your Telescope', cursive;
 }
 .contentContainer{
     background-color: azure;
@@ -83,11 +85,13 @@ nav a:hover{
 footer{
     text-align: center;
     background-color: rgb(85, 85, 85);
-    height: 80px;
+    height: 100px;
     font-style: sans;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     font: comic;
+
+
 }
 footer h2:hover{
     font-size: 170%
