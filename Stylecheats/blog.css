@@ -1,6 +1,7 @@
 body{
     background-color: black;
     background: url("../pictures/pic.jpeg") center fixed;
+    font-family: 'Amatic SC', cursive;
 }
 
 header{
@@ -29,13 +30,15 @@ header{
     width: 80%;
     margin-left: auto ;
     margin-right: auto ;
+    font-family: 'Annie Use Your Telescope', cursive;
 }
 .contentContainer{
     background-color: azure;
     opacity: unset;
     border-radius: 8px;
     height: auto;
-    width: 1000px;
+    max-width: 1000px;
+    width:100%;
     align-self: center;
     align-content: center;
     margin-left: auto ;
@@ -44,7 +47,8 @@ header{
 
 nav{
     background-color: lightgrey;
-    width: 120px;
+    max-width: 120px;
+    width:100%;
     /* height: 50%; */
     position: fixed;
     height: auto;
@@ -83,12 +87,18 @@ nav a:hover{
 footer{
     text-align: center;
     background-color: rgb(85, 85, 85);
-    height: 80px;
+    height: 100px;
     font-style: sans;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     font: comic;
+
+
 }
 footer h2:hover{
     font-size: 170%
+}
+
+footer p{
+    
 }
