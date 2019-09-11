@@ -2,6 +2,7 @@ body{
     background-color: black;
     background: white;
     text-align: center;
+    font-family: 'Chilanka', cursive;
 }
 
 img{
@@ -11,6 +12,7 @@ img{
 
 header{
     text-align: center;
+    font-family: 'Chilanka', cursive;
 }
 
 footer{
@@ -59,7 +61,7 @@ nav a:hover{
     text-decoration: none;
     display: block;
 
-    max-width: 100px;
+    max-width: 120px;
     margin: auto;
 }
 
