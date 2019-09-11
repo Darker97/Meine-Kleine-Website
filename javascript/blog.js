@@ -1,5 +1,5 @@
 
-function newElement(JsonText) {
+function newElement() {
   console.log('Jay, works')
 
   var Element = Save
@@ -26,4 +26,28 @@ function newElement(JsonText) {
     var final = document.getElementsByClassName('contentPanel')
     final[0].appendChild(NewContent)
   }
+
+  counter()
+}
+
+function counter () {
+  var count = 0
+
+  if (document.cookie.length < 3) {
+    count = 0
+  } else {
+    var cookies = document.cookie
+
+    cookies = cookies.split(';')
+
+    for (var i = 0; i < cookies.length; i++) {
+      count = cookies[i].split('=')[1]
+    }
+  }
+  count++
+  console.log(count)
+
+  var footerElement = document.getElementsByClassName('counter')
+  footerElement[0].textContent = 'This is your ' + count + ' visit'
+  document.cookie = 'save=' + count
 }
