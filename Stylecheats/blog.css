@@ -1,7 +1,7 @@
 body{
     background-color: black;
     background: url("../pictures/pic.jpeg") center fixed;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Inconsolata', monospace;
 }
 
 header{
@@ -30,7 +30,7 @@ header{
     width: 80%;
     margin-left: auto ;
     margin-right: auto ;
-    font-family: 'Annie Use Your Telescope', cursive;
+    font-family: 'Inconsolata', monospace;
 }
 .contentContainer{
     background-color: azure;

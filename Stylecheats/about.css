@@ -1,6 +1,7 @@
 body{
     background-color: black;
     background: url("../pictures/pic.jpeg") center fixed;
+    font-family: 'Inconsolata', monospace;
 }
 
 header{
