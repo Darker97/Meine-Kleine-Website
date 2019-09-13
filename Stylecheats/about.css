@@ -108,7 +108,8 @@ footer h2:hover{
 
 .Profilpicture{
     width: auto;
-    height: 210px;
+    height: auto;
+    max-height: 210px;
     background: #aaa;
     border-radius: 5px;
 }
@@ -139,6 +140,7 @@ footer h2:hover{
 .projekts th{
     background-color: grey;
     border-right: 1px solid black;
+    max-width: 150px;
 }
 .projekts td{
     font-size: 18px;
@@ -155,4 +157,10 @@ footer h2:hover{
     align-content: center;
     margin-left: auto ;
     margin-right: auto ;
+}
+
+video{
+    width: auto;
+    max-width: 560px; 
+    max-height: auto;
 }
