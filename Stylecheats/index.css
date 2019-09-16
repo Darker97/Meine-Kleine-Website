@@ -6,7 +6,8 @@ body{
 }
 
 img{
-    max-width: 1400px;
+    max-width: 1300px;
+    width: auto;
     size: auto;
 }
 
