@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /contact.html
+Disallow: /pictures/
+Disallow: /Stylecheats/
+Disallow: /Video/
