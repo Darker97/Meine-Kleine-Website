@@ -46,46 +46,46 @@ header{
 }
 
 nav{
-    background-color: lightgrey;
-    max-width: 120px;
-    width:100%;
-    /* height: 50%; */
-    position: fixed;
-    height: auto;
-    overflow: auto;
-    border-radius: 8px;
-    text-align: center;
-}
+    background-color: rgb(61, 60, 60);
+    width:auto;
+    max-width: 100%;
 
-nav h1{
-    width: 80%;
-    font-size: 18px;
+    height: 46px;
+    max-height: 50px;
+
+    border-radius: 8px;
+    top: 0;
+
+    position: -webkit-sticky; /* extra for the Safari Web-Browser */
+    position: sticky;
+
+    margin: 0px;
+    padding: 0px;
     text-align: center;
-    margin: auto;
-    min-height: 30px;
 }
 
 nav ul{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
 nav li{
-    display: inline;
-    border: thin;
+    display: inline-block;
+    float: center;
+    
 }
 
 nav a{
-    text-decoration: none;
-    text-align: center;
     display: block;
+
+    text-decoration: none;
+
     width: auto;
-    height: 40px;
-    border-radius: 8px;
-    border-color: rgb(137, 150, 204);
-    border-style: solid;
-    background-color: rgb(137, 150, 204);
+    max-height: 50px;
+    height: auto;
+    text-align: center;
+
+    padding: 14px 16px;
+    background-color: rgb(92, 93, 97);
     color: rgb(219, 219, 219);
 }
 nav a:hover{
