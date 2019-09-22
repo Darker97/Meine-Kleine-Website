@@ -1,0 +1,22 @@
+/* TEAM  */
+Developer: Christian Baltzer                     
+Site: Github.com/darker97
+Twitter: @darker97           
+Location: Växjö, Sweden
+
+/* THANKS */
+thanks to my Learning Group 
+
+                            
+/* SITE */
+                        
+Standards: HTML5, CSS3, JS
+  
+Software: Firefox, VS-Code
+
+
+╔══╗ ♫
+║██║ ♪♪
+║██║♫♪
+║ ◎♫♪♫
+╚══╝ Turn Up The Music!!!

@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Exercise 1 - Hello World</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="Stylecheats/contact.css">
+
+        <meta property="og:title" content="Blog of Secrets" />
+        <meta property="og:type" content="Christian's Blog" />
+        <meta property="og:url" content="Christian.baltzer.de" />
+        <meta property="og:image" content="./pictures/ICON.png" />
+
+        <link rel="shortcut icon" href="./pictures/ICON.png" />
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet"> 
+
+    </head>
+    
+    <body>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-rocket"></i> start</a></li>
+                <li><a href="blog.html"><i class="fas fa-rss"></i> Blog</a></li>
+                <li><a href="about.html"><i class="fas fa-envelope-open"></i> About</a></li>
+            </ul>
+        </nav>
+
+        <header id = "Header">
+            <h1 class = "headerLetters">Contact me</h1>
+            
+        </header>
+
+        <div class = "contentPanel">
+            <div class = "contentContainer">
+                <h2>Ask your question</h2>
+                <form method="POST" target="">
+                        <select name="Type">
+                            <option value="question">question</option>
+                            <option value="Bug">Bug</option>
+                            <option value="Something Else">Something Else</option>
+                        </select>
+                        <p>Name: <input name="Name" type="text"></p>
+                        <p>Message: <textarea name="Question" type="text" rows="10" cols="30"></textarea></p>
+                        <p>Tel.<input name="Telephone" type="tel"></p>
+                        <p>E-mail:<input name="E-mail" type="email"></p>
+                <h2>How should I contact you?</h2>
+                    <input type="checkbox" name="Telephone"> by Phone<br>
+                    <input type="checkbox" name="E-mail"> by Mail<br>
+                    <br><br>
+                    <input type="submit" value="send">
+                    <br><br>
+                </form>
+            </div>
+        </div>
+
+
+    </body>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <h2>Made with 🖥 and ❤️</h2>
+        <p>Always Happy Coding</p>
+    </footer>
+
+</html>

@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+    background: white;
+    text-align: center;
+    font-family: 'Chilanka', cursive;
+}
+
+img{
+    max-width: 1300px;
+    width: auto;
+    size: auto;
+}
+
+header{
+    text-align: center;
+    font-family: 'Chilanka', cursive;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(85, 85, 85);
+    height: 80px;
+    font-style: sans;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font: comic;
+}
+footer h2:hover{
+    font-size: 170%
+}
+
+nav a{
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: blue;
+    border-radius: 8px;
+}
+
+nav a:hover{
+    background-color: grey;
+}
+
+.linksToSee{
+    color: white;
+}
+
+.linksToSee br{
+    height: 1px;
+}
+.linksToSee a{
+    color: white;
+    background-color: green;
+    list-style-type: none;
+    border-radius: 8px;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+
+    max-width: 120px;
+    width:100%;
+    margin: auto;
+}
+
+.linksToSee a:hover{
+    background-color: grey;
+}
