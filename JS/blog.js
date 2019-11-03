@@ -14,15 +14,19 @@ function newElement () {
     .then(function (resp) {
       let arr = resp
       arr = arr.split(separator, 100)
-      arr.forEach(element => {
-        addArticle(element, BlogPoint)
-      })
+
+      for (let i = arr.length; i >= 0; i--) {
+        addArticle(arr[i], BlogPoint)
+      }
     })
 
   counter()
 }
 
 function addArticle (link, test) {
+  const article = document.createElement('article')
+  test.appendChild(article)
+
   test.id = 'BlogPost'
   const BlogHeader = document.createElement('h1')
   BlogHeader.textContent = link
@@ -35,8 +39,10 @@ function addArticle (link, test) {
   fetch(newLink)
     .then((resp) => resp.text())
     .then(function (resp) {
-      inhalt.innerHTML = resp.text
-      test.appendChild(inhalt)
+      const TempText = resp
+      article.appendChild(BlogHeader)
+      inhalt.innerHTML = TempText
+      article.appendChild(inhalt)
     })
 }
 
