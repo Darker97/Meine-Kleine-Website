@@ -1,6 +1,6 @@
 body{
     background-color: black;
-    background: url("../pictures/pic.jpeg") center fixed;
+    background: url("../img/pic.jpeg") center fixed;
     font-family: 'Inconsolata', monospace;
 }
 
@@ -30,6 +30,7 @@ header{
     width: 80%;
     margin-left: auto ;
     margin-right: auto ;
+    font-family: 'Inconsolata', monospace;
 }
 .contentContainer{
     background-color: azure;
@@ -69,8 +70,7 @@ nav ul{
 
 nav li{
     display: inline-block;
-    float: center;
-    
+    float: center;   
 }
 
 nav a{
@@ -94,73 +94,38 @@ nav a:hover{
 footer{
     text-align: center;
     background-color: rgb(85, 85, 85);
-    height: 80px;
+    height: 100px;
     font-style: sans;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     font: comic;
+
+
 }
 footer h2:hover{
     font-size: 170%
 }
 
-/* ------------------------------------- */
-
-.Profilpicture{
-    width: auto;
-    height: auto;
-    max-height: 210px;
-    background: #aaa;
-    border-radius: 5px;
+footer p{
+    
 }
 
-.contentContainer table{
-    border-collapse: collapse;
-    text-align: center;
-    margin: auto;
-}
-
-.contentContainer ul{
-    text-align: left;
-}
-.contentContainer ol{
-    text-align: left;
-}
-
-.projekts table, th, td{
-    height: auto;
-    margin: auto;
-}
-
-.projekts table{
-    width: max-content;
-    align-content: center;
-}
-
-.projekts th{
-    background-color: grey;
-    border-right: 1px solid black;
-    max-width: 150px;
-}
-.projekts td{
-    font-size: 18px;
-}
-
-.projekts{
-    background-color: azure;
-    opacity: unset;
+#BlogPost {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgba(207, 207, 207, 0.925);
     border-radius: 8px;
-    height: auto;
-    max-width: 1000px;
-    width:100%;
-    align-self: center;
-    align-content: center;
-    margin-left: auto ;
-    margin-right: auto ;
 }
 
-video{
-    width: auto;
-    max-width: 560px; 
-    max-height: auto;
+#BlogPost > article {
+    border: black;
+    border-style: solid;
+    border-radius: 8px;
+    width: 80%;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    margin-left: 10%;
+    background-color: white;
 }
+
+   
