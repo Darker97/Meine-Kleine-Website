@@ -15,7 +15,7 @@ function newElement () {
       let arr = resp
       arr = arr.split(separator, 100)
 
-      for (let i = arr.length; i >= 0; i--) {
+      for (let i = arr.length-1; i >= 0; i--) {
         addArticle(arr[i], BlogPoint)
       }
     })
