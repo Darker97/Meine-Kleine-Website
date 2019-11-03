@@ -1,6 +1,6 @@
 body{
     background-color: black;
-    background: url("../pictures/pic.jpeg") center fixed;
+    background: url("../img/pic.jpeg") center fixed;
     font-family: 'Inconsolata', monospace;
 }
 
@@ -70,8 +70,7 @@ nav ul{
 
 nav li{
     display: inline-block;
-    float: center;
-    
+    float: center;   
 }
 
 nav a{
