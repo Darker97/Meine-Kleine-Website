@@ -1,10 +1,12 @@
 /**
  * The link to the normal page
  */
-//const normallAddress = 'https://darker97.github.io/Meine-Kleine-Website/'
-const normallAddress = 'http://127.0.0.1:5500'
+const normallAddress = 'https://darker97.github.io/Meine-Kleine-Website/'
 const separator = '-1234567-'
 
+/**
+ * Creates new Articles and loads them
+ */
 function newElement () {
   console.log('Blog load - Start')
   const BlogPoint = document.createElement('div')
