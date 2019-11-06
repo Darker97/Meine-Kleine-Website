@@ -2,7 +2,7 @@
  * The link to the normal page
  */
 const normallAddress = 'https://darker97.github.io/Meine-Kleine-Website/'
-const separator = '-1234567-'
+const separator = /\r?\n/
 
 /**
  * Creates new Articles and loads them
