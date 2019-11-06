@@ -131,3 +131,8 @@ bibliographie {
     display: block;
     font-style: italic;
 }
+
+video{
+    max-width: 900px;
+}
+   
