@@ -128,4 +128,7 @@ footer p{
     background-color: white;
 }
 
-   
+bibliographie {
+    display: block;
+    font-style: italic;
+}
