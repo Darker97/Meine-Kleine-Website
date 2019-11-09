@@ -114,6 +114,7 @@ footer p{
     padding-bottom: 5px;
     background-color: rgba(207, 207, 207, 0.925);
     border-radius: 8px;
+    color: black;
 }
 
 #BlogPost > article {
