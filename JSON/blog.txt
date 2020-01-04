@@ -7,3 +7,8 @@ Intrusion detection and prevention Systems
 Anonymity on the web
 Blog-Editor--->2019-41-09
 Blog-Editor-testing--->2019-44-09
+Tensorflow und Notizen---2019-28-23
+Small Python GPG Script for a Project---2020-38-04
+JS User Interface---2020-39-04
+Python Spam Script---2020-40-04
+Python MySQL Database Connection Script---2020-42-04
